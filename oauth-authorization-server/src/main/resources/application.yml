@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: oauth-authorization-server
+  security:
+    oauth2:
+      authorizationserver:
+        endpoint:
+          token-uri: /oauth/token
